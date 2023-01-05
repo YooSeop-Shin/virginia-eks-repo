@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: virginia-frontend
+  namespace: default
+  labels:
+    env: dev
+spec:
+  selector:
+    matchLabels:
+      app: virginia-frontend
+  template:
+    metadata:
+      labels:
+        app: virginia-frontend
+

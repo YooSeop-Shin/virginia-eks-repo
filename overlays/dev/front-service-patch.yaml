@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: virginia-frontend
+  annotations:
+    alb.ingress.kubernetes.io/healthcheck-path: "/contents"
+  labels:
+    env: dev
+spec:
+  selector:
+    app: virginia-frontend
+
