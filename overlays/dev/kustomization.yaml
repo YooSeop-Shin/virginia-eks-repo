@@ -3,10 +3,9 @@ kind: Kustomization
 images:
 - name: 214813472555.dkr.ecr.us-east-1.amazonaws.com/virginia-frontend
   newName: 214813472555.dkr.ecr.us-east-1.amazonaws.com/virginia-frontend
-  newTag: abcdefg
+  newTag: 215bcaea
 resources:
 - ../../base
 patchesStrategicMerge:
 - front-deployment-patch.yaml
 - front-service-patch.yaml
-
