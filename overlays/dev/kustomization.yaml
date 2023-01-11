@@ -3,7 +3,7 @@ kind: Kustomization
 images:
 - name: 214813472555.dkr.ecr.us-east-1.amazonaws.com/virginia-frontend
   newName: 214813472555.dkr.ecr.us-east-1.amazonaws.com/virginia-frontend
-  newTag: 1eb13e7a
+  newTag: 359ff4fe
 resources:
 - ../../base
 patchesStrategicMerge:
